@@ -2,6 +2,8 @@
 
 A machine learning model that authenticates banknotes based on the banknote authentication dataset.
 
+![Table](https://github.com/user-attachments/assets/726a2188-a540-4a46-aefa-35ab45c80e35)
+
 ## About
 
 This simple machine learning model is trained on the [banknote authentication dataset](https://github.com/Kuntal-G/Machine-Learning/blob/master/R-machine-learning/data/banknote-authentication.csv) and classifies banknotes into the categories "authentic" and "forged" based on four parameters obtained through image analysis of the banknote. It's built with PyTorch and uses other libraries like pandas for handling the dataset, Matplotlib for plotting the training results, scikit-learn to split the data into train and test sets and PrettyTable for printing the results to the console in table format.
